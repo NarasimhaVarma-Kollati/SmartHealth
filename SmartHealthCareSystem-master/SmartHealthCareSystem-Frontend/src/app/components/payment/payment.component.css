@@ -1,0 +1,124 @@
+.payment-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.payment-card {
+  border: 1px solid #ccc;
+  border-radius: 10px; /* Increase border radius for a smoother look */
+  padding: 20px;
+  margin-bottom: 20px;
+  width: 400px; /* Set a fixed width for the card */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+.payment-card input[type="text"],
+.payment-card input[type="date"],
+.payment-card input[type="number"] {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.card-details {
+  display: flex;
+  flex-direction: column; /* Change flex direction to column */
+  margin-bottom: 10px;
+}
+
+.card-details > div {
+  width: 100%; /* Set the width of each child div to 100% */
+}
+
+.dropdown-container {
+  display: flex;
+  flex-direction: row; /* Align dropdowns horizontally */
+}
+
+.month-select,
+.year-select {
+  flex: 1; /* Each dropdown takes up equal space */
+  margin-right: 5px; /* Add some space between dropdowns */
+  height: 30px;
+}
+
+.cvv {
+  display: flex;
+  align-items: center;
+}
+
+.cvv input[type="text"] {
+  width: calc(50% - 5px);
+  margin-right: 10px;
+}
+
+.cvv span {
+  font-size: 0.8em;
+}
+
+.pay-button1,
+.pay-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.pay-button:hover {
+  background-color: #0056b3;
+}
+
+.upi-ids {
+  text-align: center;
+}
+
+.upi-ids h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.upi-ids ul {
+  padding: 0;
+}
+
+.upi-ids ul li {
+  list-style: none;
+  font-size: 1.1em;
+  margin-bottom: 5px;
+}
+.expiry-date {
+  margin-bottom: 10px;
+}
+.pay-button1 {
+  display: block;
+  margin: 20px auto 0;
+  background-color: #007bff;
+}
+.pay-button1:hover {
+  background-color: #180fc5;
+}
+.payment {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Set the height to fill the viewport */
+  background-image: url(.../../../../../assets/img/payment.jpg); /* Reference the image using its path relative to the CSS file */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.h1,
+h2 {
+  color: white;
+}
+.pay-button {
+  margin-left: 10px;
+}
